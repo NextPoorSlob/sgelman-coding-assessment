@@ -1,6 +1,6 @@
-package com.grainger.backend.service;
+package com.sgelman.backend.service;
 
-import com.grainger.backend.model.Product;
+import com.sgelman.backend.model.Product;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-# Grainger Coding Assessment
+# Coding Assessment
 
 Shows a simple implementation of a user database using Java/SpringBoot on the backend and React on the frontend.
 

@@ -1,4 +1,4 @@
-package com.grainger.backend.model;
+package com.sgelman.backend.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -13,7 +13,7 @@ public class Product {
     @Id
     // Needed to match existing sequence in the database.
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_seq_gen")
-    @SequenceGenerator(name = "product_seq_gen", sequenceName = "products_product_id_seq")
+    @SequenceGenerator(name = "product_seq_gen", sequenceName = "products_product_id_seq", allocationSize = 1)
     private Long productId;
 
     private String productName;

@@ -1,7 +1,7 @@
-package com.grainger.backend.service;
+package com.sgelman.backend.service;
 
-import com.grainger.backend.model.Product;
-import com.grainger.backend.repository.ProductRepository;
+import com.sgelman.backend.model.Product;
+import com.sgelman.backend.repository.ProductRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

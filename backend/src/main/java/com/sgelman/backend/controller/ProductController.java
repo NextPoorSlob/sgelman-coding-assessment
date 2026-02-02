@@ -1,7 +1,7 @@
-package com.grainger.backend.controller;
+package com.sgelman.backend.controller;
 
-import com.grainger.backend.model.Product;
-import com.grainger.backend.service.ProductService;
+import com.sgelman.backend.model.Product;
+import com.sgelman.backend.service.ProductService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

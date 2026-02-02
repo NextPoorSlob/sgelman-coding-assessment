@@ -2,7 +2,7 @@
 
 See the main [README.md](../README.md) for instructions on setting up and running the application.
 
-This directory contains the frontend implementation of the Grainger Coding Assessment using React. The frontend is responsible for providing a user interface to interact with the backend APIs and display data to the users.
+This directory contains the frontend implementation of the Coding Assessment using React. The frontend is responsible for providing a user interface to interact with the backend APIs and display data to the users.
 
 ## TODO
 1. Implement better error handling for API requests.

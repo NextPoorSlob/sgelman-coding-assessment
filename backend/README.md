@@ -2,7 +2,7 @@
 
 See the main [README.md](../README.md) for instructions on setting up and running the application.
 
-This directory contains the backend implementation of the Grainger Coding Assessment using Java and Spring Boot. The backend is responsible for handling API requests, managing the database, and serving data to the frontend application.
+This directory contains the backend implementation of the Coding Assessment using Java and Spring Boot. The backend is responsible for handling API requests, managing the database, and serving data to the frontend application.
 
 ## TODO
 

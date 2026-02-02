@@ -1,7 +1,7 @@
-package com.grainger.backend.controller;
+package com.sgelman.backend.controller;
 
-import com.grainger.backend.model.Product;
-import com.grainger.backend.service.ProductService;
+import com.sgelman.backend.model.Product;
+import com.sgelman.backend.service.ProductService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;
