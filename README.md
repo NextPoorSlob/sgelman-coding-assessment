@@ -36,7 +36,7 @@ To stop the backend server, press `Ctrl + C` in the terminal.
 1. Navigate to the `frontend` directory:
 2. Run the following command to start the React application:
 ```
-npm run dev
+npm start
 ```
 The frontend server will start on `http://localhost:3000`.
 
