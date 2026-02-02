@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: backend
+
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+
+    ## PostgreSQL
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+
+  # Do not let Hibernate create or drop tables automatically. Use init.sql in database project for that.
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+# Expose all management endpoints for local testing.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
