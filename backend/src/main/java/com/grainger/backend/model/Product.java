@@ -13,7 +13,7 @@ public class Product {
     @Id
     // Needed to match existing sequence in the database.
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "product_seq_gen")
-    @SequenceGenerator(name = "product_seq_gen", sequenceName = "products_product_id_seq", allocationSize = 1)
+    @SequenceGenerator(name = "product_seq_gen", sequenceName = "products_product_id_seq")
     private Long productId;
 
     private String productName;
