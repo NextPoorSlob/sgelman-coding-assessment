@@ -8,4 +8,6 @@ public interface ProductService {
     List<Product> getAllProducts();
 
     Product add(String name) throws Exception;
+
+    List<Product> getProductsByName(String productName);
 }

@@ -42,4 +42,10 @@ public class ProductController {
         log.error("Exception occurred: ", e);
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage());
     }
+    @GetMapping("/get")
+    public ResponseEntity<List<Product>> getProductsByName(@RequestParam("name") String productName) {
+        log.info("getProductsByName invoked: [{}]", productName);
+        List<Product> products = productService.getProductsByName(productName);
+        return ResponseEntity.ok(products);
+    }
 }

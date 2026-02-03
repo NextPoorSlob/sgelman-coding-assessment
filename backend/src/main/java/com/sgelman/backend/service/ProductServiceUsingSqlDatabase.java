@@ -24,4 +24,9 @@ public class ProductServiceUsingSqlDatabase implements  ProductService {
     public Product add(String name) {
         return productRepository.save(new Product(name));
     }
+
+    @Override
+    public List<Product> getProductsByName(String productName) {
+        return productRepository.findByName(productName);
+    }
 }
